@@ -3,3 +3,5 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+# My ignored files
+.DS_Store
