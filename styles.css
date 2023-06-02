@@ -1,8 +1,8 @@
 .favicon {
     height: 30px;
-  }
+}
   
-  .passwordDiv {
+.passwordDiv {
     position: absolute;
     left: calc(50% - 92px);
     top: 50%;
@@ -11,13 +11,23 @@
     justify-content: center;
     align-items: center;
     text-align: center; /* Added to center the button text */
-  }
+}
   
-  .passwordSubmitButton {
+.passwordSubmitButton {
     margin-top: 10px;
-  }
+}
   
-  #passwordInput {
+#passwordInput {
     margin-bottom: 10px;
-  }
-  
+}
+
+.passwordHomeButton {
+    margin-top: 20px
+}
+
+html.secret-content {
+    background-image: url("IMGs/image2.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

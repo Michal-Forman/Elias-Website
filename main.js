@@ -14,6 +14,9 @@ passwordForm.addEventListener('submit', function(event) {
     const enteredPassword = passwordInput.value;
 
     if (enteredPassword === correctPassword) {
+        // Store the information about password entry in sessionStorage
+        sessionStorage.setItem('passwordEntered', 'true');
+        
         // Redirect to the secret page if the correct password is entered
         window.location.href = redirectURL;
     } else {
