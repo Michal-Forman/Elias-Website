@@ -1,0 +1,21 @@
+.favicon {
+    height: 30px;
+}
+
+.passwordDiv {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.passwordSubmitButton {
+    justify-self: center;
+}
+
+#passwordInput {
+    margin-bottom: 10px;
+
+}
