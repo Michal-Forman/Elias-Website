@@ -5,3 +5,4 @@
 /httpRequests/
 # My ignored files
 .DS_Store
+passwords.txt
