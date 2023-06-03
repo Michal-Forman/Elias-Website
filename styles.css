@@ -1,3 +1,4 @@
+
 .favicon {
     height: 30px;
 }
@@ -77,3 +78,34 @@ h1 {
   #myImage {
       width: 400px;
   }
+
+  .flagsContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flag1container, .flag2container {
+      width: 400px;
+      height: 100%;
+  }
+
+  #firstFlag, #secondFlag {
+      width: 400px;
+      height: 100%;
+  }
+.heilPass {
+  margin-top: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-content: top;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-size: 4rem;
+  margin: 0;
+}
