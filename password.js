@@ -12,15 +12,10 @@ const _1nvdw = document.getElementById("passwordForm")
     const _35 = 35;
     const _20 = 37;
     const _37 = 24;
-
-
-
     const _56 = (_24 * 2 + _37) % 10 === 0 ? Math.pow(_24, 2) : Math.pow(_37, 2);
-
     const _82 = Math.max(_24, _37, _56) - Math.min(_24, _37, _56);
-
+    const _38 = Math.round(Math.pow(Math.sin(Math.PI / 6), 2) * Math.sqrt(Math.pow(5, 4)) / Math.pow(Math.cos(Math.PI / 3), 2)) + Math.floor(Math.pow(Math.E, Math.log(125)) - Math.sqrt(Math.pow(5, 2))) + Math.ceil(Math.log10(1000) / Math.log2(32)) - Math.trunc(Math.pow(7, 2)) + Math.round(Math.sqrt(36)-68);
     const _99 = _24 + _37 + _56 + _82;
-  
    _f1zm4 = ()=>console.log("Hello, world!")
   , _2hv8d = _m7h28.getAttribute("name")
   , _9dsnm = ()=>{
@@ -80,7 +75,7 @@ const _1nvdw = document.getElementById("passwordForm")
   }
   
   
-   _kh4fr = _43fmp.slice(_24, 35)
+   _kh4fr = _43fmp.slice(_24, _38)
   , _d0mr5 = "secret-content-revealed.html"
   , _p2lnt = document.createElement("div")
   , _n7bkw = new Date
