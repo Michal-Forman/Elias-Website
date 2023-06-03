@@ -33,10 +33,47 @@ html.secret-content {
 }
 
 header {
-    width: 100vh;
-    height: 30vh;
+    height: 40vh;
+    width: 100vw;
     background-image: url("IMGs/image5.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+h1 {
+    color: white;
+    font-size: 5rem;
+} 
+
+.image-container {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 200px);
+    overflow: hidden;
+    border: solid 15px black;
+    border-radius: 6px;
+    background-image: url("IMGs/sovietFlag2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container.small img {
+    transform: scale(0.5);
+  }
+  
+  .image-container.move img {
+    transform: translateX(200px);
+  }
+  
+  #myImage {
+      width: 400px;
+  }
