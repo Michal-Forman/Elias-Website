@@ -52,7 +52,7 @@ h1 {
 
 .image-container {
     position: absolute;
-    top: calc(50% - 300px);
+    top: calc(30% - 300px);
     left: calc(50% - 200px);
     overflow: hidden;
     border: solid 15px black;
@@ -108,4 +108,33 @@ h1 {
 h2 {
   font-size: 4rem;
   margin: 0;
+}
+
+#myImage2 {
+  width: 400px;
+}
+
+.image-container2 img {
+  transition: transform 0.3s ease;
+}
+
+.image-container2.small img {
+  transform: scale(0.5);
+}
+
+.image-container2.move img {
+  transform: translateX(200px);
+}
+
+.image-container2 {
+  position: absolute;
+  top: calc(80% - 300px);
+  left: calc(50% - 200px);
+  overflow: hidden;
+  border: solid 15px black;
+  border-radius: 6px;
+  background-image: url("IMGs/resImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
