@@ -31,3 +31,12 @@ html.secret-content {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+header {
+    width: 100vh;
+    height: 30vh;
+    background-image: url("IMGs/image5.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -15,15 +15,14 @@ passwordForm.addEventListener('submit', function(event) {
 
     if (enteredPassword === correctPassword) {
         // Store the information about password entry in sessionStorage
-        sessionStorage.setItem('passwordEntered', 'true');
+        sessionStorage.setItem("passwordEntered", "true");
         
         // Redirect to the secret page if the correct password is entered
         window.location.href = redirectURL;
     } else {
-        // Hide the additional content if an incorrect password is entered
-        additionalContent.style.display = 'none';
+        alert("Špatné heslo");
     }
 
     // Reset the password input field
-    passwordInput.value = '';
+    passwordInput.value = "";
 });
