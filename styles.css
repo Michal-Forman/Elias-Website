@@ -138,3 +138,7 @@ h2 {
   background-position: center;
   background-size: cover;
 }
+
+h3 {
+  color: red;
+}

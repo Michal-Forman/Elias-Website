@@ -1,0 +1,38 @@
+p {
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.mainDiv{
+  position: absolute;
+  left: calc(50% - 350px);
+  top: calc(25% - 125px);
+  width: 700px;
+  height: 250px;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: silver;
+  border: solid 3px black;
+  border-radius: 3px;
+
+}
+
+
+
+
+.zpět {
+  position: absolute;
+  top: 400px;
+  right: 320px;
+  justify-self: center !important;
+
+}
+
+.stáhnout {
+  position: absolute;
+  top: 350px;
+  right: 286px;
+  justify-self: center !important;
+}
