@@ -77,6 +77,7 @@ h1 {
   
   #myImage {
       width: 400px;
+      height: 550px;
   }
 
   .flagsContainer {
@@ -99,6 +100,7 @@ h1 {
 .heilPass {
   margin-top: 50px;
   height: 100px;
+  width: 600px;
   display: flex;
   justify-content: center;
   align-content: top;
@@ -112,6 +114,7 @@ h2 {
 
 #myImage2 {
   width: 400px;
+  height: 550px;
 }
 
 .image-container2 img {
@@ -128,7 +131,7 @@ h2 {
 
 .image-container2 {
   position: absolute;
-  top: calc(80% - 300px);
+  top: calc(130% - 300px);
   left: calc(50% - 200px);
   overflow: hidden;
   border: solid 15px black;
@@ -139,6 +142,38 @@ h2 {
   background-size: cover;
 }
 
+#myImage3 {
+  width: 400px;
+  height: 550px;
+  object-fit: cover;
+}
+
+.image-container3 img {
+  transition: transform 0.3s ease;
+}
+
+.image-container3.small img {
+  transform: scale(0.5);
+}
+
+.image-container3.move img {
+  transform: translateX(200px);
+}
+
+.image-container3 {
+  position: absolute;
+  top: calc(80% - 300px);
+  left: calc(50% - 200px);
+  overflow: hidden;
+  border: solid 15px black;
+  border-radius: 6px;
+  background-image: url("IMGs/Ellia-Heil.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
 h3 {
   color: red;
 }
+
