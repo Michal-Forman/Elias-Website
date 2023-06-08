@@ -158,9 +158,14 @@ h2 {
 
 h3 {
   color: red;
+  align-self: flex-end;
+  justify-self: flex-start;
 }
 
+
 .DoučováníFrancouzštiny {
+  justify-self: center;
+  width: 900px;
   margin-top: 50px;
   height: 100px;
   text-align: center;
@@ -171,6 +176,8 @@ h3 {
 }
 
 .heilPass {
+  justify-self: center;
+  width: 600px;
   margin-top: 50px;
   height: 100px;
   text-align: center;
@@ -186,4 +193,10 @@ h3 {
   height: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 300px 300px;
 }
