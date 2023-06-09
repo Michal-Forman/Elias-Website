@@ -190,7 +190,7 @@ h3 {
 .flagsContainer {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 300%;
   display: flex;
   justify-content: space-between;
 }
@@ -199,4 +199,10 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 300px 300px;
+}
+
+.secret-content-button {
+  position: absolute;
+  top: 155%;
+  left: calc(50% - 5px);
 }
