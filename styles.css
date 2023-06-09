@@ -206,3 +206,41 @@ h3 {
   top: 155%;
   left: calc(50% - 5px);
 }
+
+/* Responsivity */
+@media (min-width: 800px) and (max-width: 1316px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  h2 {
+    color: goldenrod;
+  }
+}
+
+@media (min-width: 1317px) and (max-width: 1800px) {
+  html {
+    background-color: blue;
+  }
+
+  .flag1container {
+    display: none;
+  }
+}
+
