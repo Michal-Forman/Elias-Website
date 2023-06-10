@@ -52,7 +52,7 @@ h1 {
 
 .image-container {
     position: absolute;
-    top: calc(30% - 300px);
+    top: 20px;
     left: calc(50% - 200px);
     overflow: hidden;
     border: solid 15px black;
@@ -114,7 +114,7 @@ h2 {
 
 .image-container2 {
   position: absolute;
-  top: calc(130% - 300px);
+  top: 1220px;
   left: calc(50% - 200px);
   overflow: hidden;
   border: solid 15px black;
@@ -145,7 +145,7 @@ h2 {
 
 .image-container3 {
   position: absolute;
-  top: calc(80% - 300px);
+  top: 620px;
   left: calc(50% - 200px);
   overflow: hidden;
   border: solid 15px black;
@@ -203,7 +203,7 @@ h3 {
 
 .secret-content-button {
   position: absolute;
-  top: 155%;
+  top: 1820px;
   left: calc(50% - 5px);
 }
 
