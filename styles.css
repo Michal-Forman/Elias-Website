@@ -417,3 +417,25 @@ h3 {
   }
 }
 
+/* Responsivity for secret-content-revealed */
+@media (max-width: 400px) {
+  .image-container,
+  .image-container2,
+  .image-container3 {
+    left: 10px;
+    width: 350px;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  #myImage,
+  #myImage2,
+  #myImage3 {
+    height: 500px;
+    width: 350px;
+  }
+
+  .image-container2 {
+    background-image: url("./IMGs/Najít\ Eliovu\ sestru\ Miu.png")
+  }
+}
