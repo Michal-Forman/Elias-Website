@@ -197,7 +197,7 @@ h3 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: auto;
   grid-template-rows: 300px 300px;
 }
 
@@ -208,7 +208,215 @@ h3 {
 }
 
 /* Responsivity */
-@media (min-width: 800px) and (max-width: 1316px) {
+@media (max-width: 299px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    background-size: 100vw;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  .heilPass {
+    width: 200px;
+    justify-self: center;
+  }
+
+  .DoučováníFrancouzštiny {
+    width: 200px;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    color: goldenrod;
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 409px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    background-size: 100vw;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  .heilPass {
+    width: 300px;
+    justify-self: center;
+  }
+
+  .DoučováníFrancouzštiny {
+    width: 300px;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    color: goldenrod;
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
+@media (min-width: 660px) and (max-width: 911px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    background-size: 100vw;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  .heilPass {
+    width: 360px;
+    justify-self: center;
+  }
+
+  .DoučováníFrancouzštiny {
+    width: 600px;
+  }
+
+  h2 {
+    color: goldenrod;
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+@media (min-width: 410px) and (max-width: 659px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    background-size: 100vw;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  .heilPass {
+    width: 360px;
+    justify-self: center;
+  }
+
+  .DoučováníFrancouzštiny {
+    width: 400px;
+  }
+
+  h2 {
+    color: goldenrod;
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+
+@media (min-width: 660px) and (max-width: 911px) {
+  .flag1container,
+  .flag2container {
+    display: none;
+  }
+
+  .grid-container {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  html {
+    background-image: url("./IMGs/frenchFlag.png");
+    background-position: center;
+    background-size: 100vw;
+    height: 150%;
+  }
+
+  .flagsContainer {
+    height: 100vh;
+  }
+
+  .heilPass {
+    width: 360px;
+    justify-self: center;
+  }
+
+  .DoučováníFrancouzštiny {
+    width: 600px;
+  }
+
+  h2 {
+    color: goldenrod;
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (min-width: 912px) and (max-width: 1316px) {
   .flag1container,
   .flag2container {
     display: none;
@@ -222,11 +430,16 @@ h3 {
   html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
+    background-size: 100vw;
     height: 150%;
   }
 
   .flagsContainer {
     height: 100vh;
+  }
+
+  .heilPass {
+    width: 500px;
   }
 
   h2 {
