@@ -41,7 +41,7 @@ p {
   position: absolute;
   top: 400px;
   right: 320px;
-  justify-self: center !important;
+  justify-self: center;
 
 }
 
@@ -49,5 +49,68 @@ p {
   position: absolute;
   top: 350px;
   right: 286px;
-  justify-self: center !important;
+  justify-self: center;
+}
+
+/* Responsivity */
+@media (max-width: 299px) {
+  p {
+    font-size: 0.7rem;
+  }
+
+  .mainDiv,
+  .mainDivOzón {
+    height: 170px;
+    width: 95%;
+    left: calc(50% - 47.5%);
+  }
+
+  .stáhnout {
+    right: calc(50% - 63px);
+    top: 250px;
+  }
+  .zpět {
+    right: calc(50% - 30px);
+    top: 300px;
+  }
+}
+@media (min-width: 300px) and (max-width: 529px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .mainDiv,
+  .mainDivOzón {
+    height: 200px;
+    width: 95%;
+    left: calc(50% - 47.5%);
+  }
+
+  .stáhnout {
+    right: calc(50% - 63px);
+    top: 250px;
+  }
+  .zpět {
+    right: calc(50% - 30px);
+    top: 300px;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 730px) {
+  p {
+    font-size: 1.5rem;
+  }
+
+  .mainDiv,
+  .mainDivOzón {
+    width: 500px;
+    left: calc(50% - 250px);
+  }
+
+  .stáhnout {
+    right: 187px;
+  }
+  .zpět {
+    right: 220px;
+  }
 }
