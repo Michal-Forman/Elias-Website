@@ -219,7 +219,7 @@ h3 {
     height: 100vh;
   }
 
-  html {
+  html.index-html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
     background-size: 100vw;
@@ -262,7 +262,7 @@ h3 {
     height: 100vh;
   }
 
-  html {
+  html.index-html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
     background-size: 100vw;
@@ -295,46 +295,6 @@ h3 {
   }
 }
 
-
-@media (min-width: 660px) and (max-width: 911px) {
-  .flag1container,
-  .flag2container {
-    display: none;
-  }
-
-  .grid-container {
-    width: 100vw;
-    height: 100vh;
-  }
-
-  html {
-    background-image: url("./IMGs/frenchFlag.png");
-    background-position: center;
-    background-size: 100vw;
-    height: 150%;
-  }
-
-  .flagsContainer {
-    height: 100vh;
-  }
-
-  .heilPass {
-    width: 360px;
-    justify-self: center;
-  }
-
-  .DoučováníFrancouzštiny {
-    width: 600px;
-  }
-
-  h2 {
-    color: goldenrod;
-    font-size: 3rem;
-  }
-  h1 {
-    font-size: 4rem;
-  }
-}
 @media (min-width: 410px) and (max-width: 659px) {
   .flag1container,
   .flag2container {
@@ -346,7 +306,7 @@ h3 {
     height: 100vh;
   }
 
-  html {
+  html.index-html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
     background-size: 100vw;
@@ -387,11 +347,15 @@ h3 {
     height: 100vh;
   }
 
-  html {
+  html.index-html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
     background-size: 100vw;
     height: 150%;
+  }
+
+  #secret-content-revealed {
+    background-color: white !important;
   }
 
   .flagsContainer {
@@ -427,7 +391,7 @@ h3 {
     height: 100vh;
   }
 
-  html {
+  html.index-html {
     background-image: url("./IMGs/frenchFlag.png");
     background-position: center;
     background-size: 100vw;
@@ -448,10 +412,6 @@ h3 {
 }
 
 @media (min-width: 1317px) and (max-width: 1800px) {
-  html {
-    background-color: blue;
-  }
-
   .flag1container {
     display: none;
   }
